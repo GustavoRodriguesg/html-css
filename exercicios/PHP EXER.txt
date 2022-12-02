@@ -1,0 +1,64 @@
+EXERCÍCIO 1)
+
+<?php
+$nome1="Gustavo";
+$nome2="Rodrigues da silva";
+$idade="19";
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+</head>
+<body>
+   <?php
+   echo "<p style='color: red;'>Meu nome é $nome1 </p>";
+   echo "<p style='color: green;'>Meu sobrenome é $nome2 </p>";
+   echo "<p style='color: purple;'>Eu tenho $idade anos </p>";
+
+   ?>
+
+    
+</body>
+</html>
+
+
+
+
+EXERCÍCIO 2)
+
+?php
+$nota1=5;
+$nota2=6;
+$nota3=7;
+$nota4=8;
+$soma=$nota1+$nota2+$nota3+$nota4;
+$aritimetica=$soma/4;
+$ponderada=($nota1*1+$nota2*2+$nota3*3+$nota4*4)/$soma;
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+</head>
+<body>
+    <h1>
+        Médias
+    </h1>
+   <?php
+   echo "<p style='color: red;'>A média aritimética é  $aritimetica </p>";
+   echo "<p style='color: #B0E0E6;'>A média ponderada é  $ponderada </p>";
+   
+
+   ?>
+
+    
+</body>
+</html>
